@@ -17,7 +17,7 @@
 
 from setuptools import setup, find_packages
 
-VERSION = '1.0.3'
+VERSION = '1.0.4'
 
 setup(
     name='starpy',
@@ -38,5 +38,8 @@ setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python",
     ],
+    install_requires=[
+        'twisted',
+        ],
 
 )
